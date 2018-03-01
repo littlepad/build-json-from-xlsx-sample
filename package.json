@@ -6,7 +6,8 @@
   "author": "littlepad <littlepad@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint gulpfile.js gulp-task/**/*.js"
+    "lint": "eslint gulpfile.js gulp-task/**/*.js",
+    "build": "gulp build"
   },
   "devDependencies": {
     "eslint": "^4.18.1",
