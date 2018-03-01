@@ -1,0 +1,8 @@
+{
+  "name": "build-json-from-xlsx-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/littlepad/build-json-from-xlsx-sample.git",
+  "author": "littlepad <littlepad@gmail.com>",
+  "license": "MIT"
+}
