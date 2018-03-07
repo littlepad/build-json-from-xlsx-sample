@@ -19,8 +19,6 @@ export default class SellerJson extends Json {
    */
   output(distDir) {
     for (const seller of this.sellerList.list) {
-      /* eslint no-console: 0 */
-      console.log(`${distDir}${seller.id}.json`);
       this._outputJson(`${distDir}${seller.id}.json`, seller);
     }
   }

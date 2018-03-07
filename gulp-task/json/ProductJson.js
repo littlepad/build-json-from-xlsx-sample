@@ -19,8 +19,6 @@ export default class ProductJson extends Json {
    */
   output(distDir) {
     for (const product of this.productList.list) {
-      /* eslint no-console: 0 */
-      console.log(`${distDir}${product.id}.json`);
       this._outputJson(`${distDir}${product.id}.json`, product);
     }
   }
